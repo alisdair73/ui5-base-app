@@ -1,0 +1,9 @@
+<mvc:View
+	controllerName="<%= projectnamespace %>.<%= projectname %>.controller.Initial"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+>
+	<Page id="initial" title="<%= projectdescription %>">
+		<Text text="Replace the Page as needed...Dynamic Page/Semantic Page/Object Page etc"/>
+	</Page>
+</mvc:View>

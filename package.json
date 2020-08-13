@@ -1,0 +1,15 @@
+{
+  "name": "generator-ui5-base-app",
+  "version": "1.0.0",
+  "description": "Generate an opinionated Ui5 Application",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "glob": "^7.1.6",
+    "yeoman-generator": "^4.11.0"
+  }
+}

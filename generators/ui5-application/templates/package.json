@@ -1,0 +1,17 @@
+{
+    "name": "<%= projectname %>",
+    "description": "<%= projectdescription %>",
+    "scripts": {
+      "build": "ui5 build",
+      "start": "ui5 serve -o index.html"
+    },
+    "devDependencies": {
+      "@ui5/cli": "^2.2.5",
+      "ui5-middleware-livereload": "^0.3.0"
+    },
+    "ui5": {
+      "dependencies": [
+        "ui5-middleware-livereload"
+      ]
+    }
+  }
